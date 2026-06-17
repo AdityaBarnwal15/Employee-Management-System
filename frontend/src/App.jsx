@@ -52,7 +52,7 @@ function App() {
 
     try {
       const response = await axios.post(
-        "https://employee-management-system-v1-f6p0.onrender.com/",
+        "https://employee-management-system-v1-f6p0.onrender.com/api/employees",
         formData,
       );
 
